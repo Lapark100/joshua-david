@@ -3,5 +3,5 @@
 }
 
 .hero{
-    @apply p-3 w-28 flex justify-center items-center bg-yellow-500 hover:bg-black text-white rounded text-sm
+    @apply p-3 w-28 flex justify-center items-center bg-yellow-500  text-black rounded text-sm
 }

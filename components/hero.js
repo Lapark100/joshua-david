@@ -27,7 +27,7 @@ export default function HeroSection() {
                         In my spare time, I work on enhancing my development
                         skills and exploring new technologies.</p>
                     <div className=" flex  mt-4 flex-col md:block">
-                        <Link href={`mailto:${email}`} className={styles.hero}> Contact me</Link>
+                        <Link id="text" href={`mailto:${email}`} className={styles.hero}> Contact me</Link>
                     </div>
 
                 </div>
