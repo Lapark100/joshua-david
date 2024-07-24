@@ -11,7 +11,7 @@ export default async function Navigation () {
         <li><Link href=""  className={`${styles.link} text-gray-500`}>Projects</Link></li>
         <li><Link href="/contact"  className={styles.link}>Contact</Link></li>
         <li><Link href=""  className={`${styles.link} text-gray-500`}>Blog</Link></li>
-        <li><Link href="" className={styles.link}>CV</Link></li>
+        <li><Link href="/JoshuaDavidCv.pdf" className={styles.link}>CV</Link></li>
 
         </ul>
         </nav>
