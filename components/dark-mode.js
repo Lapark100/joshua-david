@@ -14,7 +14,7 @@ export default function DarkMode(defaultTheme = 'dark') {
 
 return (
 
-    <button onClick={toggleTheme}>{nextModeIcons[theme]}</button>
+    <button name="toggle button" onClick={toggleTheme}>{nextModeIcons[theme]}</button>
 )
 
 }
