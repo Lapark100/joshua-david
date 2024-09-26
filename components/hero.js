@@ -1,11 +1,19 @@
-import Link from "next/link";
+"use client"
+
+
 import avatar from '../public/images/profilePicture.jpg'
 import Image from "next/image";
 import H1 from "@/components/h1";
-import styles from './navigation.module.css'
+import Button from './button';
+import { useRouter } from "next/navigation";
 export default function HeroSection() {
-   
+
     const email = "joshuad692@gmail.com";
+
+    const router = useRouter()
+    const handleClick = () => {
+        router.push(`mailto:${email}`)
+    }
 
     return (
         <section className="mb-16">
@@ -27,7 +35,7 @@ export default function HeroSection() {
                         In my spare time, I work on enhancing my development
                         skills and exploring new technologies.</p>
                     <div className=" flex  mt-4 flex-col md:block">
-                        <Link id="text" href={`mailto:${email}`} className={styles.hero}> Contact me</Link>
+                        <Button variant='default' size='sm' onClick={handleClick} className="flex justify-center items-center rounded " >Contact Me</Button>
                     </div>
 
                 </div>
@@ -38,3 +46,11 @@ export default function HeroSection() {
 
     )
 }
+
+
+
+
+
+
+
+
