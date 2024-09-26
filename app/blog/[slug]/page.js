@@ -37,7 +37,7 @@ export default async function BlogPage({ params }) {
 
         return (<article className="prose dark:prose-invert">
                 <div className="flex space-x-2 mb-8">
-                {post.frontmatter.tags.map(tag => <Link href={`/blog/?tags=${tag}`} key={tag} className="dark: text-gray-400 text-gray-500">#{tag}</Link>)}
+                {post.frontmatter.tags.map(tag => <Link href={`/blog/?tags=${tag}`} key={tag} className="dark:text-neonGreen text-neonGreen">#{tag}</Link>)}
                 </div>
                 {post.content}
         </article>)
