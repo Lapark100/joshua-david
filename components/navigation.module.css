@@ -2,6 +2,3 @@
     @apply  md:p-1 hover:bg-gray-200 hover:text-gray-700 text-2xl md:text-base
 }
 
-.hero{
-    @apply p-3 w-28 flex justify-center items-center bg-yellow-500  text-black rounded text-sm
-}
