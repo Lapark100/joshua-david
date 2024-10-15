@@ -2,6 +2,7 @@
 
 
 import avatar from '../public/images/profilePicture.jpg'
+import code from '@/public/images/code.png'
 import Image from "next/image";
 import H1 from "@/components/h1";
 import Button from './button';
