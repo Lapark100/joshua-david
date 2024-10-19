@@ -1,9 +1,9 @@
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
-import Chatbot from "@/components/chatbot";
 import useServerDarkMode from "@/hooks/use-server-dark-mode";
 import Footer from "@/components/footer";
+import { Analytics } from '@vercel/analytics/react';
 
 // const inter = Inter({ subsets: ["latin"] });
 const roboto = Roboto({
@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
        <Header />
         <main className="mt-12">
           {children}
+          <Analytics />
         </main>
         <Footer />
       </body>
