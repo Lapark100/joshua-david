@@ -1,7 +1,7 @@
 "use client"
 
 
-import avatar from '../public/images/profilePicture.jpg'
+import avatar from '../public/images/Wallpaper.png'
 import code from '@/public/images/code.png'
 import Image from "next/image";
 import H1 from "@/components/h1";
