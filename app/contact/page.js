@@ -1,8 +1,8 @@
 import H1 from "@/components/h1"
 import Image from "next/image"
-import avatar from '@/public/images/profilePicture.jpg'
+import avatar from '@/public/images/Wallpaper.png'
 import Link from "next/link"
-import styles from '@/components/navigation.module.css'
+
 
 export default function Contact () {
 const email = "joshuad692@gmail.com";
