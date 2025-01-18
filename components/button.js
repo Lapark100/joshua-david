@@ -1,8 +1,7 @@
 export default function Button(props) {
     console.log(props.variants)
 const variants = {
-    default: ' bg-yellow-500  text-black',
-    newBrand: 'bg-[#cadb2b] text-[#34469b]'
+    default: ' bg-[#cadb2b] text-[#34469b]'
 }
 
 const sizes = {
