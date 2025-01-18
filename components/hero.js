@@ -36,7 +36,7 @@ export default function HeroSection() {
                         In my spare time, I work on enhancing my development
                         skills and exploring new technologies.</p>
                     <div className=" flex  mt-4 flex-col md:block">
-                        <Button variant='newBrand' size='sm' onClick={handleClick} className="flex justify-center items-center rounded " >Contact Me</Button>
+                        <Button variant='default' size='sm' onClick={handleClick} className="flex justify-center items-center rounded " >Contact Me</Button>
                     </div>
 
                 </div>

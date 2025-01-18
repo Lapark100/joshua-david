@@ -20,7 +20,7 @@ return (
                 <H1> <span className="text-yellow-500"> Have a question?</span></H1>
                     <p className="leading-7 "> I&apos;m currently available for work/collaborations. Send me a mail and I&apos;ll respond in 24 hours!</p>
                     <div className=" flex  mt-4 flex-col md:block">
-                        <Link href={`mailto:${email}`} className={styles.hero}> Contact me</Link>
+                        <Link href={`mailto:${email}`} className="bg-[#cadb2b] text-[#34469b]"> Contact me</Link>
                         
                     </div>
 
