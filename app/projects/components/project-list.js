@@ -59,6 +59,26 @@ export default function ProjectList() {
           </Button>
         </Card>
       </li>
+
+      <li className="mb-4">
+        <Card className="h-full font-sans space-y-4 flex flex-col justify-between">
+          <div className="flex justify-between mb-4">
+            <div className="font-semibold">{name[2]}</div>
+            <div>⭐⭐⭐</div>
+          </div>
+
+          <div className="flex-grow">{description[2]}</div>
+
+          <Button 
+            variant="default" 
+            size="sm" 
+            onClick={handleClick1} 
+            className="mt-auto flex justify-center items-center w-full rounded"
+          >
+            View Project
+          </Button>
+        </Card>
+      </li>
     </ul>
   );
 }
