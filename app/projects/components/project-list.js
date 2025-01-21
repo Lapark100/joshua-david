@@ -78,7 +78,7 @@ export default function ProjectList() {
           <Button 
             variant="default" 
             size="sm" 
-            onClick={handleClick1} 
+            onClick={handleClick2} 
             className="mt-auto flex justify-center items-center w-full rounded"
           >
             View Project
