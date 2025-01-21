@@ -18,7 +18,7 @@ export default function ProjectList() {
     router.push('https://hr-landing-page-inky.vercel.app/')
   }
 
-  onst handleClick2 = () => {
+  const handleClick2 = () => {
     router.push('https://talkhaven-v1.vercel.app/')
   }
 
