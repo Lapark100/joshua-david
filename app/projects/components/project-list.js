@@ -18,6 +18,12 @@ export default function ProjectList() {
     router.push('https://hr-landing-page-inky.vercel.app/')
   }
 
+  onst handleClick2 = () => {
+    router.push('https://talkhaven-v1.vercel.app/')
+  }
+
+  
+
   return (
     <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
       <li className="mb-4">
