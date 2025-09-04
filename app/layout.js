@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
   const theme = useServerDarkMode()
   return (
     <html lang="en" className={theme}>
+    <meta name="p:domain_verify" content="3353a8126c52ba49b1b7973b6ee2890c"/>
       <body className={roboto.className}>
        <Header />
         <main className="mt-12">
